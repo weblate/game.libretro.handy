@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.handy"
+		name="Lynx (handy)"
+		version="1.0.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+                   library_android="game.libretro.handy.so"
+                   library_linux="game.libretro.handy.so"
+                   library_osx="game.libretro.handy.dylib"
+                   library_windx="game.libretro.handy.dll"
+                   library_wingl="game.libretro.handy.dll">
+		<platforms>Lynx</platforms>
+		<extensions>.lyn</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_no_game>false</supports_no_game>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Handy v1.0.1</summary>
+		<description>Source: https://github.com/libretro/libretro-handy</description>
+		<platform>all</platform>
+	</extension>
+</addon>
