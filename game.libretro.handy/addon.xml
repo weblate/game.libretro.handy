@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.handy"
 		name="Lynx (handy)"
-		version="1.0.1"
+		version="0.95"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.lynx"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="game.libretro.handy.so"
+                   library_android="libgame.libretro.handy.so"
                    library_linux="game.libretro.handy.so"
                    library_osx="game.libretro.handy.dylib"
                    library_windx="game.libretro.handy.dll"
@@ -18,8 +19,13 @@
 		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Handy v1.0.1</summary>
-		<description>Source: https://github.com/libretro/libretro-handy</description>
+		<summary lang="en">Handy v0.95</summary>
+		<description>Handy is an Atari Lynx emulator by K. Wilkins for Windows 95/98/NT/2000/XP.
+
+Supported files: .lyn
+
+License: zlib</description>
 		<platform>all</platform>
+		<nofanart>true</nofanart>
 	</extension>
 </addon>
