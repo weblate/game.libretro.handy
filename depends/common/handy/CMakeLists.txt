@@ -44,4 +44,4 @@ install(FILES ${PROJECT_SOURCE_DIR}/handy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-handy-config.cmake "set(HANDY_LIB ${CMAKE_INSTALL_PREFIX}/lib/handy_libretro$${CMAKE_SHARED_LIBRARY_SUFFIX})")
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-handy-config.cmake "set(HANDY_LIB ${CMAKE_INSTALL_PREFIX}/lib/handy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
