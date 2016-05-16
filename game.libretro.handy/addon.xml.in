@@ -7,11 +7,7 @@
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.handy.so"
-                   library_linux="game.libretro.handy.so"
-                   library_osx="game.libretro.handy.dylib"
-                   library_windx="game.libretro.handy.dll"
-                   library_wingl="game.libretro.handy.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Lynx</platforms>
 		<extensions>lnx</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -24,7 +20,8 @@
 
 Supported files: .lnx</description>
 		<license>zlib</license>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
+
