@@ -7,6 +7,6 @@ find_package(Kodi REQUIRED)
 find_package(libretro-handy REQUIRED)
 
 set(HANDY_CUSTOM_BINARY ${HANDY_LIB}
-                        ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
+    ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
 
-build_addon(${PROJECT_NAME} HANDY DEPLIBS)
+build_addon(${PROJECT_NAME} HANDY "")
