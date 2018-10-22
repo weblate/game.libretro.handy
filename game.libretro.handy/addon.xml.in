@@ -21,6 +21,7 @@
 Supported files: .lnx</description>
 		<license>Zlib</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.handy</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<screenshot>resources/screenshot-01.jpg</screenshot>
