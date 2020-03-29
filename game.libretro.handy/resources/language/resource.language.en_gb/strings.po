@@ -21,7 +21,7 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Color Depth (Restart)"
+msgid "Color depth"
 msgstr ""
 
 msgctxt "#30002"
