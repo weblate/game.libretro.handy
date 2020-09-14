@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.handy"
 		name="Atari - Lynx (Handy)"
-		version="0.97.0.7"
+		version="0.97.0.8"
 		provider-name="K. Wilkins">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
